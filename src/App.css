@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: slategrey;
+}
+
+.prod{
+  width: 95%;
+  display: grid;
+  grid-template-columns: 30% 80%;
+  gap: 50px;
+  margin: 20px;
+  text-align: center;
+}
+
+li{
+  cursor: pointer;
+}
+
